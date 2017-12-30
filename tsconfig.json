@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "none",
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist/",
+    "moduleResolution": "node",
+    "pretty": false,
+    "types": ["node"],
+    "lib": [
+      "es2015"
+    ],
+    "typeRoots": [
+      "typings",
+      "node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

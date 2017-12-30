@@ -1,0 +1,24 @@
+{
+  "name": "pp-calc-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "postinstall": "tsc",
+    "dev": "ts-node index.ts",
+    "build": "tsc index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dillon Modine-Thuen <inquiry@itsyuka.pw> (https://itsyuka.pw)",
+  "license": "AGPL",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/async": "^2.0.41",
+    "@types/node": "^8.0.25",
+    "@types/request": "^2.0.3",
+    "@types/request-promise": "^4.1.37",
+    "async": "^2.5.0",
+    "request": "^2.82.0",
+    "request-promise": "^4.2.2"
+  }
+}
